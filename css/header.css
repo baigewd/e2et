@@ -57,7 +57,7 @@ a {
 .top-bar{
   height: 90px;
   width: 100%;
-  background: #fff;
+  background: #f2f3f7;
   z-index: 999;
    border-bottom: 1px solid #d9dce1;
 position: fixed;
@@ -74,42 +74,37 @@ position: fixed;
   margin-top:13px;
 }
 .top-nav{
-float: right;
+  float: right;
   overflow:hidden;
 }
-.nav a:hover {
-  color:#fff;
-   } 
 .nav { 
-  width: 600px;
-  margin:0 auto ;
-  float:none; 
   overflow:hidden; 
   text-align:center; 
   font-size:18px; 
   padding-top: 32px;
-  padding-left: 32px;
 } 
 .nav li {
- float:left; 
-  width:100px; 
+  float:left; 
+  width:100px;
+  margin-right: 5px;
 } 
 .nav li a {
- float: left;
 display: block;
-position: relative;
-background: #fff;
 width: 100px;
 height: 36px;
 line-height: 2; 
     } 
-.nav a:hover { margin-right:1px; background:#18a7e3; } 
-.nav  ul { float:left; font-size:0; z-index:888; } 
-.nav ul>li a { clear:both; width:150px; margin-top:0; font-size:14px; background: #3cb5ec;} 
-.nav ul>li>li a:hover {
- margin-right:2px;
-  
+.nav .now a,.nav a:hover {
+ background:#18a7e3;
+ color:#fff;
+ border-radius: 3px 
 } 
+.subnav .now a,.subnav a:hover{
+   margin-right:5px; 
+ background:#18a7e3;
+ color:#fff;
+ border-radius: 3px 
+}
 .space{
   height: 90px;
   width:100%;
@@ -120,7 +115,7 @@ line-height: 2;
   padding:0;
   height: 45px;
   width: 100%;
-  background: #dde0e5;
+  background: #eeeeee;
   top:90px;
   position: fixed;
   box-shadow: 1px 1px 1px 1px #D0D5DA;
@@ -129,39 +124,32 @@ line-height: 2;
 
 .inner ul{
   float: left;
-  margin: -6px auto;
+  margin: ;
   width: 501px;
   padding: 2px 0px 0px 0px ;
   height:48px;
 }
 .inner li{
+  margin-top: 7px;
   font-size: 17px;
   float: left;
-  margin:0px;
   width:100px; 
-  height:48px;
+  height:40px;
 }
 
 .inner li a{ 
- color:#535556;
  text-decoration:none; 
  display:block; 
- width:100px; 
- height:48px; 
+ height:30px; 
  text-align:center; 
- margin-top: 2px;
  margin-left:0;
- line-height:3;
+ line-height:1.82;
 
 } 
 
 .inner li a:hover{
   background-color:#43acdc;
   color:#ffffff;
-}
-.now a{
-  color: #3cb5ec;
-  font-weight:bold;
 }
 .intro-menu{
   background: #dde0e5

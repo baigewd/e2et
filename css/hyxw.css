@@ -2,10 +2,10 @@
 	background: url(../images/news.png) 50% 50%  no-repeat;
     width: 100%;
     height: 300px;
-    margin-top: 40px
+    margin-top: 46px
 }
 .news{
-    margin-top: -20px
+margin-top: 35px;
 }
 .news-left{
 	background: url(../images/4.png) repeat-x;
