@@ -1,0 +1,19 @@
+.speech p{
+    font-size: 1.1em;
+  line-height: 2;
+  text-align: left
+}
+.t-title{
+	background: url(../images/fenge.png) no-repeat;
+	height: 50px;
+}
+.t-title h2{
+ width: 152px;
+float: left;
+line-height: 1em;
+color: #fff;
+padding-left: 64px;
+}
+.speech{
+	padding-bottom: 80px
+}

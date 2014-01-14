@@ -1,0 +1,23 @@
+
+.history{
+  padding-bottom: 80px
+}
+.t-title{
+  background: url(../images/fenge.png) no-repeat;
+  height: 50px;
+}
+.t-title h2{
+ width: 152px;
+float: left;
+line-height: 1em;
+color: #fff;
+padding-left: 64px;
+}
+.history h3 {
+	margin-top: 2em;
+}
+.history p{
+  line-height: 2;
+  text-indent: 2em;
+  font-size: 1.1em
+}

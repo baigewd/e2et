@@ -1,0 +1,37 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style-type:none;font-style:normal;}
+
+/* banner */
+.banner{position:relative;height:300px;overflow:hidden;width:100%;}
+.banner .show{width:2500px;position:absolute;left:50%;top:0px;margin-left:-1250px;height:300px;overflow:hidden;}
+.banner .show ul{position:relative;height:300px;overflow:hidden;width:2500px;float:left;}
+.banner .show ul li{text-align:center;width:2500px;float:left;height:300px;position:absolute;display:none}
+.banner .focus{position:absolute;width:120px;padding-left:10px;padding-top:13px;bottom:0px;right:0px;background:url(../images/bor02.png) no-repeat left center;height:29px;}
+.banner .focus a{width:14px;height:14px;background:url(../images/ico01.png) no-repeat left -24px;float:left;margin-left:10px;display:inline-block}
+.banner .focus a.on{background:url(../images/ico01.png) no-repeat left top}
+.all_bg{background-image:url(../images/all_bg.png);background-repeat:no-repeat}
+.wrapper{width:980px;margin:0 auto;}
+/* hot */
+.hot{width:100%;height:42px;line-height:42px;position:absolute;bottom:0;z-index:2;background-image:url(../images/bg03.png);background-repeat:repeat-x;}
+.hot .list{width:860px;padding-left:10px;height:42px;position:relative;float:left;}
+.hot .list .prev{display:block;width:18px;height:15px;position:absolute;background-position:-42px -108px;top:13px;left:80px;}
+.hot .list .next{display:block;width:18px;height:15px;position:absolute;background-position:-80px -108px;top:13px;left:105px}
+.list_txt{font-size:16px;width:145px;float:left;}
+.hot .list span.tit{font-size:12px;width:145px;float:left;color:#151515;}
+.hot .list a{color:#000000;font-size:12px;text-decoration:none;}
+.hot .list a:hover{color:#0157AD;font-size:12px;text-decoration:none;}
+.hot .list div{width:700px;float:left;height:42px;position:relative;overflow:hidden}
+.hot .list div ul{width:700px;position:absolute}
+/* boxgrid */
+.boxgrid{width:45px;height:auto;position:absolute;right:0;top: 12px;overflow:hidden;z-index:999;margin-top:100px;}
+.boxgrid .cover{border:0;width:45px;height:450px;background-image:url(../images/qim.png);}
+.boxgrid .btn{float:left;width:46px;height:126px;}
+.boxgrid .cover .cue{width:215px;padding-left:70px;padding-top:100px}
+.boxgrid .cover .cue h2{font-family:"微软雅黑";font-size:18px;color:#076F9C;font-weight:100;height:30px;line-height:30px;margin-bottom:5px;}
+.boxgrid .cover .cue ul{width:215px;overflow:hidden}
+.box_tit{font-family:"微软雅黑";font-size:14px;color:#2BA2DB;text-decoration:none;float:left;line-height:50px;}
+.boxgrid .cover .cue ul li.zc_xx{width:60px;}
+.boxgrid .cover .cue ul li.zc_xx1 input{border:0;background:none;width:130px;}
+.boxgrid .cover .cue ul li.zc_xx1{width:144px;padding-left:5px;}
+.boxgrid .cover .cue ul li.zc_xx2{width:144px;padding-left:5px;height:30px;}
+.boxgrid .cover .cue ul li{float:left;line-height:24px;margin-bottom:5px;font-family:"微软雅黑";font-size:12px;color:#4C4C4C;height:30px;}

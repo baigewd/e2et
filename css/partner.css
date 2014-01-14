@@ -1,0 +1,65 @@
+
+.banner{
+  background: url(../images/hezuo.png) 50% 50% no-repeat;
+  width: 100%;
+  height: 300px
+}
+.content{
+	margin-bottom: 80px
+
+}
+.content ul li{
+    padding-bottom: 52px;
+
+}
+.content ul h2{
+
+	color: #43acdc;
+	line-height: 2em;
+
+} 
+.content ul p{
+	font-size: 1.1em;
+	line-height: 1.5em;
+	text-indent: 2em;
+	width: 900px;
+	margin: 0 auto
+}
+.content img{
+	float: left;
+	clear: both;
+	margin:0 20px;
+	margin-left: -42px;
+}
+.content li a{
+	
+	margin-left: 20px;
+	line-height:2em;
+	}
+.ptitle{
+
+	text-align: center;
+}
+.ptitle h2{
+	line-height: 2em;
+	color: #43acdc
+}
+.ptitle p{
+	font-size: 1.5em
+}
+.t-title{
+	background: url(../images/fenge.png) no-repeat;
+	height: 50px;
+}
+.t-title h2{
+ width: 180px;
+float: left;
+line-height: 1em;
+color: #fff;
+padding-left: 40px;
+}
+.t-title p{
+line-height:5.5em;
+font-size: 1em;
+
+}

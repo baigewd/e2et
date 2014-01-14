@@ -1,0 +1,45 @@
+
+.banner{
+  background: url(../images/zhaopin.png) 50% 50% no-repeat;
+  width: 100%;
+  height:300px
+}
+.banner h3{
+  font-size: 2em;
+  color: #57818b;
+  margin-left: 494px;
+padding-top: 168px;
+}
+.content{
+	margin-bottom: 80px
+}
+.date{
+	float: right;
+}
+.zhao-arrow{
+	background: url(../images/sanjiao.png) no-repeat;
+	width: 8px;
+	height: 13px;
+	float: left;
+	margin-top: 4px;
+	margin-right: 10px
+}
+.download{
+	padding-top: 2em ;
+	padding-bottom: 5em
+}
+.gonggao ul li,.download ul li{
+	padding: 2em 3em;
+	border-bottom: 1px dashed #3392cc;
+}
+.t-title{
+  background: url(../images/fenge.png) no-repeat;
+  height: 50px;
+}
+.t-title h2{
+ width: 152px;
+float: left;
+line-height: 1em;
+color: #fff;
+padding-left: 64px;
+}

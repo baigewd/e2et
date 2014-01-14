@@ -1,0 +1,49 @@
+.QR-Code{
+  margin-top: 2em
+}
+.QR-Code ul{
+  text-align: center;
+  width: 440px;
+  margin: 0 auto;
+}
+.QR-Code li{
+  float: left;
+  text-align: center;
+  width: 220px;
+vertical-align:middle
+}
+.QR-Code img{
+  height: 220px;
+  width: 220px;
+}
+.way{
+  width:530px;
+  margin: 0 auto;
+  line-height:3;
+  overflow:hidden;
+}
+.way p{
+  float: left;
+}
+.contact h3{
+  color: #43acdc;
+  text-align: center;
+  width: 100%;
+  line-height: 2em
+}
+.contact p{
+  font-size: 1.1em;
+  line-height: 2;
+  width: 100%
+}
+.t-title{
+  background: url(../images/fenge.png) no-repeat;
+  height: 50px;
+}
+.t-title h2{
+ width: 152px;
+float: left;
+line-height: 1em;
+color: #fff;
+padding-left: 64px;
+}
