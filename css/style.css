@@ -17,7 +17,7 @@
 .hot .list .prev{display:block;width:18px;height:15px;position:absolute;background-position:-42px -108px;top:13px;left:80px;}
 .hot .list .next{display:block;width:18px;height:15px;position:absolute;background-position:-80px -108px;top:13px;left:105px}
 .list_txt{font-size:16px;width:145px;float:left;}
-.hot .list span.tit{font-size:15px;width:145px;float:left;color:#151515;}
+.hot .list span.tit{font-size:15px;width:145px;float:left;color:#151515;line-height: 2.8}
 .hot .list a{color:#000000;font-size:15px;text-decoration:none;}
 .hot .list a:hover{color:#0157AD;font-size:15px;text-decoration:none;}
 .hot .list div{width:700px;float:left;height:42px;position:relative;overflow:hidden}
@@ -26,7 +26,7 @@
 .boxgrid{width:23px;height:auto;position:absolute;right:0;top: 12px;overflow:hidden;z-index:999;margin-top:100px;}
 .boxgrid .cover{border:0;width:23px;height:282px;background-image:url(../images/qim1.png);}
 .boxgrid .btn{float:left;width:23px;height:126px;}
-.boxgrid .cover .cue{width:196px;padding-left:40px;padding-top:50px}
+.boxgrid .cover .cue{width:196px;padding-left:40px;padding-top:35px}
 .boxgrid .cover .cue h2{font-family:"微软雅黑";font-size:18px;color:#076F9C;font-weight:100;height:30px;line-height:30px;margin-bottom:5px;}
 .boxgrid .cover .cue ul{width:215px;overflow:hidden}
 .box_tit{font-family:"微软雅黑";font-size:14px;color:#2BA2DB;text-decoration:none;float:left;line-height:50px;}
