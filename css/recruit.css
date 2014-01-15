@@ -43,3 +43,17 @@ line-height: 1em;
 color: #fff;
 padding-left: 64px;
 }
+.ss{
+	padding: 2em 3em;
+}
+
+.ss li{
+
+}
+.ss a{
+	color: #003399;
+	margin-left: 10px
+}
+.ss a:hover,.ss a:active{
+	color: #ff3333
+}

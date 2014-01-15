@@ -5,8 +5,8 @@
   height: 300px
 }
 .content{
-	margin-bottom: 80px
-
+	margin-bottom: 80px;
+    margin-top:-14px;
 }
 .content ul li{
     padding-bottom: 52px;

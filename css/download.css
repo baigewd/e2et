@@ -122,3 +122,18 @@ padding-left: 83px;
 .pc a span {
   margin-left: 55px;
 }
+.ee{
+  padding-top: 42px;
+margin-left: 240px;
+}
+.ee li{
+  font-size: 2.5em;
+  color: #fff;
+  line-height: 2em;
+}
+.banner{
+  background: url(../images/chanpinbg.png) no-repeat;
+  width: 100%;
+  height: 300px;
+  margin-top: 45px;
+}
